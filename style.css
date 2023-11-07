@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    font-size: 1.5em;
+    
+}
+h1{font-size: 3.5em;}
+h2{font-size: 2.5em;}
+h3{font-size: 2em;}
+p{font-size: 1.5em;}
+ul{list-style: none;}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(250, 250, 250);
+    margin: 0;
+}
+header{
+    background-color: rgba(121, 121, 121, 0.973);
+    align-items: center;
+}
+header .logo{
+    
+    margin: 1px;
+    border-radius: 15px;
+    
+    
+}
+header .contenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+header nav{
+    
+    flex-direction: row;
+    text-align: center;
+    padding: 50px 100px;
+    
+  
+
+}
+header a{
+   
+    padding: 15px 40px;
+    text-decoration: none;
+    
+    font-weight: bold;
+    color: rgb(14, 13, 13);
+    
+}
+header a:hover{
+    color: rgb(236, 14, 14);
+}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(226, 125, 43);
+}
+button:hover{
+    background-color: rgb(255, 251, 0);
+}
+.contenedor{
+    max-width: 1400px;
+    margin: auto;
+}
+#mensaje{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    
+    background-image: url("fondo1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#mensaje h1{
+    color: white;
+}
+#referencias{
+
+}
+#referencias .contenedor{
+    padding: 200px 12px;
+    text-align: center;
+
+}
+#habitaciones{
+    background-color: rgba(0, 0, 0, 0.767);
+    color: white;
+    text-align: center;
+}
+#habitaciones .contenedor{
+    flex-direction: row;
+    padding: 100px 10px;
+}
+#habitaciones h2{
+    margin-top: 0px;
+}
+#habitaciones .descripcion{
+   padding: 50px;
+   margin: 15px;
+   display: flex;
+   flex-direction: row;
+}
+#habitaciones h2{
+    text-align: 4em;
+}
+#habitaciones .familiar{
+
+    background-image: url("familiar.jpeg");
+    background-position: center center;
+    background-image: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+#habitaciones .dobles{
+    
+    background-image: url("dobles.jpeg");
+    background-position: center center;
+    background-image: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+#habitaciones .economicas{
+
+    background-image: url("economica.jpeg");
+    background-position: center center;
+    background-image: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+#servicios h2{
+    text-align: center;
+    color: gray;
+}
+#servicios .contenedor{
+    text-align: center;
+    padding: 20px 15px;
+}
+#servicios li{
+    margin: 10px 2px;
+    font-weight: bold;
+}
+
